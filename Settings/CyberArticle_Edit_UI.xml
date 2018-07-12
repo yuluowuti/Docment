@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI_EDIT_5.3.0.0 CompactMode="1">
+	<CommandBars>
+		<Layout>
+			<DockState Version="24" ScreenSize="1920, 1080" Count="6">
+				<BarInfo0 BarId="1" MRUWidth="32767"/>
+				<BarInfo1 BarId="301" MRUWidth="32767" PointPos="0, 27"/>
+				<BarInfo2 BarId="300" MRUWidth="32767" PointPos="0, 55"/>
+				<BarInfo3 BarId="302" MRUWidth="32767" PointPos="781, 55" MRUDockPos="781, 55, 1562, 83"/>
+				<BarInfo4 BarId="1000" MRUWidth="32767" MRUDockPosition="1"/>
+				<BarInfo5 BarId="785" MRUWidth="32767" PointPos="0, 83"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="10" Id1="1" Id3="301" Id5="302" Id6="300" Id8="785"/>
+				<DockBar1 Count="3" Id1="1000"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<DockingPane>
+		<Summary Panes="8" TopContainer="3" Client="6"/>
+		<Pane-1 Type="0" DockingCX="250" DockingCY="240" Title="源代码\n源代码" ID="32953" DockingHolder="7" LastHolder="7"/>
+		<Pane-2 Type="0" DockingCX="250" DockingCY="240" Title="附件窗口\n附件" ID="32855" DockingHolder="8" LastHolder="8"/>
+		<Pane-3 Type="2" Horiz="1" Panes="2" Pane-1="4" Pane-2="8"/>
+		<Pane-4 Type="2" Panes="2" Pane-1="5" Pane-2="7"/>
+		<Pane-5 Type="2" Horiz="1" Panes="1" Pane-1="6"/>
+		<Pane-6 Type="4"/>
+		<Pane-7 Type="1" DockingCX="250" DockingCY="240" Panes="0"/>
+		<Pane-8 Type="1" DockingCX="250" DockingCY="240" Panes="0"/>
+	</DockingPane>
+	<Shortcuts>
+		<Accel Id="32899" virt="11" key="84"/>
+		<Accel Id="57669" virt="7" key="112"/>
+		<Accel Id="57635" virt="7" key="46"/>
+		<Accel Id="57635" virt="11" key="88"/>
+		<Accel Id="57636" virt="11" key="70"/>
+		<Accel Id="57637" virt="11" key="86"/>
+		<Accel Id="57637" virt="7" key="45"/>
+		<Accel Id="57640" virt="3" key="114"/>
+		<Accel Id="57641" virt="11" key="72"/>
+		<Accel Id="57642" virt="11" key="65"/>
+		<Accel Id="57643" virt="19" key="8"/>
+		<Accel Id="57643" virt="11" key="90"/>
+		<Accel Id="57602" virt="3" key="27"/>
+		<Accel Id="57600" virt="11" key="78"/>
+		<Accel Id="57601" virt="11" key="79"/>
+		<Accel Id="57607" virt="11" key="80"/>
+		<Accel Id="57603" virt="11" key="83"/>
+		<Accel Id="32968" virt="3" key="115"/>
+		<Accel Id="32811" virt="3" key="119"/>
+		<Accel Id="32799" virt="11" key="66"/>
+		<Accel Id="32799" virt="15" key="66"/>
+		<Accel Id="32804" virt="11" key="69"/>
+		<Accel Id="32800" virt="11" key="73"/>
+		<Accel Id="32800" virt="15" key="73"/>
+		<Accel Id="32803" virt="11" key="76"/>
+		<Accel Id="32806" virt="11" key="82"/>
+		<Accel Id="32810" virt="3" key="118"/>
+		<Accel Id="32801" virt="11" key="85"/>
+		<Accel Id="32801" virt="15" key="85"/>
+		<Accel Id="33017" virt="11" key="75"/>
+		<Accel Id="57680" virt="3" key="117"/>
+		<Accel Id="57860" virt="19" key="13"/>
+		<Accel Id="34951" virt="11" key="49"/>
+		<Accel Id="34960" virt="11" key="48"/>
+		<Accel Id="34952" virt="11" key="50"/>
+		<Accel Id="34953" virt="11" key="51"/>
+		<Accel Id="34954" virt="11" key="52"/>
+		<Accel Id="34955" virt="11" key="53"/>
+		<Accel Id="34956" virt="11" key="54"/>
+		<Accel Id="34957" virt="11" key="55"/>
+		<Accel Id="34958" virt="11" key="56"/>
+		<Accel Id="34959" virt="11" key="57"/>
+		<Accel Id="57681" virt="7" key="117"/>
+		<Accel Id="32955" virt="3" key="120"/>
+		<Accel Id="32950" virt="19" key="49"/>
+		<Accel Id="32951" virt="19" key="50"/>
+		<Accel Id="32952" virt="19" key="51"/>
+		<Accel Id="57602" virt="11" key="87"/>
+	</Shortcuts>
+</UI_EDIT_5.3.0.0>

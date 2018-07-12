@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI_6.0.0.0 CompactMode="1">
+	<CommandBars>
+		<CommandBars>
+			<CommandBar Class="CWizMenuBar" Type="0" BarID="1" Flags="1119" Style="4194304" Title="菜单栏" MRUWidth="32767" Closeable="0" ResourceId="142">
+				<Controls OriginalControls="1">
+					<Control Class="CWizControlPopup" Type="2" Caption="文件(&amp;F)" CommandBarId="16777216"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="视图(&amp;V)" CommandBarId="16777220"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="操作(&amp;A)" CommandBarId="16777221"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="宏(&amp;M)" CommandBarId="16777222"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="工具(&amp;T)" CommandBarId="16777223"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="随时访问(&amp;C)" CommandBarId="16777225"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="帮助(&amp;H)" CommandBarId="16777226"/>
+					<Control Class="CWizControlEmptyButton" Id="33026" Flags="16" HideFlags="1" Caption="空" Width="50"/>
+					<Control Class="CWizAddressControlComboBox" Type="5" Id="32987" Flags="48" HideFlags="1" Caption="地址" Width="100" CommandBarId="16777229" EditHint="地址" EditIconId="32987"/>
+					<Control Class="CWizControlButton" Id="32988" Flags="17" HideFlags="1" Caption="转到(&amp;G)"/>
+					<Control Class="CWizControlEmptyButton" Id="33044" Flags="17" HideFlags="1" Caption="空" Width="20"/>
+					<Control Class="CWizControlPopup" Type="4" Id="33038" Flags="17" HideFlags="1" Caption="后退" TooltipText="后退" DescriptionText="后退" CommandBarId="16777230"/>
+					<Control Class="CWizControlPopup" Type="4" Id="33039" Flags="17" HideFlags="1" Caption="前进" TooltipText="前进" DescriptionText="前进" CommandBarId="16777231"/>
+					<Control Class="CWizControlButton" Id="33040" Flags="17" HideFlags="1" Caption="刷新" TooltipText="刷新" DescriptionText="刷新"/>
+					<Control Class="CWizControlButton" Id="33041" Flags="17" HideFlags="1" Caption="停止" TooltipText="停止" DescriptionText="停止"/>
+					<Control Class="CWizControlButton" Id="33042" Flags="17" HideFlags="1" Caption="首页" TooltipText="首页" DescriptionText="首页"/>
+					<Control Class="CWizControlPopup" Type="3" Id="33043" Flags="17" HideFlags="1" Caption="收藏夹" TooltipText="收藏夹" DescriptionText="收藏夹" CommandBarId="16777232"/>
+					<Control Class="CWizControlEmptyButton" Id="33027" Flags="17" Caption="空" Width="20"/>
+					<Control Class="CWizControlComboBox" Type="5" Id="33021" Flags="17" Caption="搜索" Width="175" CommandBarId="16777233" EditHint="搜索"/>
+					<Control Class="CWizControlPopup" Type="4" Id="33024" Flags="17" Caption="搜索" CommandBarId="16777234"/>
+					<OriginalControls>
+						<Control Class="CWizControlPopup" Type="2" Caption="文件(&amp;F)" CommandBarId="16777235"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="视图(&amp;V)" CommandBarId="16777239"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="操作(&amp;A)" CommandBarId="16777240"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="宏(&amp;M)" CommandBarId="16777241"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="工具(&amp;T)" CommandBarId="16777242"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="随时访问(&amp;C)" CommandBarId="16777244"/>
+						<Control Class="CWizControlPopup" Type="2" Caption="帮助(&amp;H)" CommandBarId="16777245"/>
+						<Control Class="CWizControlEmptyButton" Id="33026" Caption="空"/>
+						<Control Class="CWizAddressControlComboBox" Type="5" Id="32987" Caption="地址" Width="100" CommandBarId="16777248" DropDown="0" EditIconId="32987"/>
+						<Control Class="CWizControlButton" Id="32988" Caption="转到(&amp;G)"/>
+						<Control Class="CWizControlEmptyButton" Id="33044" Caption="空"/>
+						<Control Class="CWizControlPopup" Type="4" Id="33038" Caption="后退" TooltipText="后退" DescriptionText="后退" CommandBarId="16777249"/>
+						<Control Class="CWizControlPopup" Type="4" Id="33039" Caption="前进" TooltipText="前进" DescriptionText="前进" CommandBarId="16777250"/>
+						<Control Class="CWizControlButton" Id="33040" Caption="刷新" TooltipText="刷新" DescriptionText="刷新"/>
+						<Control Class="CWizControlButton" Id="33041" Caption="停止" TooltipText="停止" DescriptionText="停止"/>
+						<Control Class="CWizControlButton" Id="33042" Caption="首页" TooltipText="首页" DescriptionText="首页"/>
+						<Control Class="CWizControlPopup" Type="3" Id="33043" Caption="收藏夹" TooltipText="收藏夹" DescriptionText="收藏夹" CommandBarId="16777251"/>
+						<Control Class="CWizControlEmptyButton" Id="33027" Caption="空"/>
+						<Control Class="CWizControlComboBox" Type="5" Id="33021" Caption="搜索" Width="100" CommandBarId="16777252" DropDown="0"/>
+						<Control Class="CWizControlPopup" Type="4" Id="33024" Caption="搜索" CommandBarId="16777253"/>
+					</OriginalControls>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304" Title="文件(F)">
+				<Controls>
+					<Control Class="CWizControlPopup" Type="2" Caption="新建(&amp;N)" CommandBarId="16777217"/>
+					<Control Class="CWizControlButton" Id="32775" Caption="打开书籍(&amp;O)..." TooltipText="打开书籍" DescriptionText="打开一个存在的书籍" ShortcutTextAuto="Ctrl+O"/>
+					<Control Class="CWizControlButton" Id="33069" Caption="打开本地书籍(&amp;B)..." TooltipText="打开本地书籍" DescriptionText="打开本地书籍"/>
+					<Control Class="CWizControlButton" Id="32879" BeginGroup="1" Caption="关闭当前书籍(&amp;L)" TooltipText="关闭当前书籍" DescriptionText="关闭当前书籍"/>
+					<Control Class="CWizControlButton" Id="57607" BeginGroup="1" Caption="打印(&amp;P)..." TooltipText="打印" DescriptionText="打印活动文档" ShortcutTextAuto="Ctrl+P"/>
+					<Control Class="CWizControlButton" Id="57609" Caption="打印预览(&amp;V)"/>
+					<Control Class="CWizControlButton" Id="57605" Caption="页面设置(&amp;U)..."/>
+					<Control Class="CWizControlPopup" Type="2" BeginGroup="1" Caption="导入(&amp;I)" CommandBarId="16777218"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="导出(&amp;E)" CommandBarId="16777219"/>
+					<Control Class="CWizControlButton" Id="57665" BeginGroup="1" Caption="退出(&amp;X)" TooltipText="退出" DescriptionText="退出应用程序；提示保存文档"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777217" Style="4194304" Title="新建(N)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32777" Caption="文件夹(&amp;F)" TooltipText="新文件夹" DescriptionText="创建新文件夹" ShortcutTextAuto="F6"/>
+					<Control Class="CWizControlButton" Id="32779" Caption="文章(&amp;A)" TooltipText="新文章" DescriptionText="创建新文章" ShortcutTextAuto="F7"/>
+					<Control Class="CWizControlButton" Id="32773" BeginGroup="1" Caption="书籍(&amp;B)..." TooltipText="新书籍" DescriptionText="创建新书籍"/>
+					<Control Class="CWizControlButton" Id="33068" Caption="Access书籍(&amp;C)..." TooltipText="新建Access书籍" DescriptionText="新建Access书籍"/>
+					<Control Class="CNewArticleToolPluginsControlButton" Id="32919" Caption="[NewArticlePlugins]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777218" Style="4194304" Title="导入(I)">
+				<Controls>
+					<Control Class="CImportToolPluginsControlButton" Id="32914" Caption="[ImportPlugins]"/>
+					<Control Class="CWizControlButton" Id="33125" BeginGroup="1" Caption="从其它工具导入(&amp;T)"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777219" Style="4194304" Title="导出(E)">
+				<Controls>
+					<Control Class="CExportToolPluginsControlButton" Id="32915" Caption="[ExportPlugins]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777220" Style="4194304" Title="视图(V)">
+				<Controls>
+					<Control Class="CWizControlToolbars" Id="59392" Caption="工具栏(&amp;T)" TooltipText="显隐工具栏" DescriptionText="显示或隐藏工具栏"/>
+					<Control Class="CWizControlButton" Id="59393" Caption="状态栏(&amp;S)" TooltipText="显隐状态栏" DescriptionText="显示或隐藏状态栏"/>
+					<Control Class="CWizControlButton" Id="32878" BeginGroup="1" Caption="搜索(&amp;E)" TooltipText="搜索" DescriptionText="搜索窗口"/>
+					<Control Class="CWizControlButton" Id="32792" BeginGroup="1" Caption="书籍(&amp;B)" TooltipText="书籍" DescriptionText="书籍窗口"/>
+					<Control Class="CWizControlButton" Id="32771" Caption="文件夹(&amp;F)" TooltipText="文件夹" DescriptionText="文件夹窗口"/>
+					<Control Class="CWizControlButton" Id="32904" Caption="标签(&amp;L)" TooltipText="标签" DescriptionText="标签窗口"/>
+					<Control Class="CWizControlButton" Id="32971" Caption="书签(&amp;K)" TooltipText="书签窗口" DescriptionText="书签窗口"/>
+					<Control Class="CWizControlButton" Id="32772" Caption="节点(&amp;N)" TooltipText="节点" DescriptionText="节点窗口"/>
+					<Control Class="CWizControlButton" Id="32855" Caption="附件(&amp;A)" TooltipText="附件" DescriptionText="附件窗口"/>
+					<Control Class="CWizControlButton" Id="32905" Caption="文章资源(&amp;R)" TooltipText="资源" DescriptionText="资源窗口"/>
+					<Control Class="CWizControlButton" Id="32909" Caption="注释(&amp;C)" TooltipText="注释" DescriptionText="注释窗口"/>
+					<Control Class="CWizControlButton" Id="32984" BeginGroup="1" Caption="全屏(&amp;U)" TooltipText="最大化窗口到全屏幕" DescriptionText="最大化窗口到全屏幕"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777221" Style="4194304" Title="操作(A)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32899" Caption="选中部分作为标题(&amp;S)" TooltipText="设置选中部分作为标题" DescriptionText="设置选中部分作为标题" ShortcutTextAuto="Ctrl+T"/>
+					<Control Class="CWizControlButton" Id="32913" Caption="重新保存当前文章(&amp;R)..." TooltipText="重新保存当前文章" DescriptionText="重新保存当前文章"/>
+					<Control Class="CWizControlButton" Id="32972" Caption="添加到书签(&amp;B)" TooltipText="添加到书签" DescriptionText="添加到书签"/>
+					<Control Class="CWizControlButton" Id="32856" BeginGroup="1" Caption="添加附件(&amp;T)..." TooltipText="添加附件" DescriptionText="添加附件"/>
+					<Control Class="CWizControlButton" Id="33127" Caption="添加文件快捷方式作为附件(&amp;T)..." TooltipText="添加快捷方式" DescriptionText="添加快捷方式"/>
+					<Control Class="CWizControlButton" Id="32956" BeginGroup="1" Caption="上一篇文章(&amp;P)" TooltipText="上一篇文章" DescriptionText="上一篇文章"/>
+					<Control Class="CWizControlButton" Id="32957" Caption="下一篇文章(&amp;N)" TooltipText="下一篇文章" DescriptionText="下一篇文章"/>
+					<Control Class="CWizControlButton" Id="33183" BeginGroup="1" Caption="同步(&amp;Y)..." TooltipText="同步" DescriptionText="同步"/>
+					<Control Class="CWizControlButton" Id="33182" Caption="分享(&amp;H)..." TooltipText="分享" DescriptionText="分享"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777222" Style="4194304" Title="宏(M)">
+				<Controls>
+					<Control Class="CNormalMacrosControlButton" Id="33081" Caption="[Macros]"/>
+					<Control Class="CWizControlButton" Id="33084" BeginGroup="1" Caption="安装宏..."/>
+					<Control Class="CWizControlButton" Id="33085" Caption="管理宏..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777223" Style="4194304" Title="工具(T)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32895" Caption="选项(&amp;O)..." TooltipText="更改设置" DescriptionText="更改设置"/>
+					<Control Class="CWizControlButton" Id="33058" Caption="浮动工具栏(&amp;F)" TooltipText="浮动工具栏" DescriptionText="浮动工具栏"/>
+					<Control Class="CWizControlButton" Id="33060" BeginGroup="1" Caption="书籍维护(&amp;M)..." TooltipText="书籍维护" DescriptionText="书籍维护"/>
+					<Control Class="CWizControlButton" Id="32903" BeginGroup="1" Caption="阅读器(&amp;R)..." TooltipText="打开文章阅读器" DescriptionText="打开文章阅读器"/>
+					<Control Class="CNormalToolPluginsControlButton" Id="32897" Caption="[Plugins]"/>
+					<Control Class="CWizControlPopup" Type="2" BeginGroup="1" Caption="便携CyberArticle" CommandBarId="16777224"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777224" Style="4194304" Title="便携CyberArticle">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33145" Caption="注册全部文件(&amp;G)..." TooltipText="注册全部CyberArticle文件" DescriptionText="注册全部CyberArticle文件"/>
+					<Control Class="CWizControlButton" Id="33146" Caption="取消注册全部文件(&amp;U)..." TooltipText="取消注册全部CyberArticle文件" DescriptionText="取消注册全部CyberArticle文件"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777225" Style="4194304" Title="随时访问(C)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33212" Caption="网页版(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33213" Caption="手机网页版(&amp;M)"/>
+					<Control Class="CWizControlButton" Id="33214" BeginGroup="1" Caption="iPhone/iPad客户端(&amp;I)"/>
+					<Control Class="CWizControlButton" Id="33215" Caption="安卓(Android)客户端(&amp;A)"/>
+					<Control Class="CWizControlButton" Id="33216" Caption="Windows Phone 7客户端(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33221" Caption="苹果客户端(&amp;C)"/>
+					<Control Class="CWizControlButton" Id="33222" Caption="Linux客户端(&amp;L)"/>
+					<Control Class="CWizControlButton" Id="33217" BeginGroup="1" Caption="更多(&amp;O)..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777226" Style="4194304" Title="帮助(H)">
+				<Controls>
+					<Control Class="CWizControlPopup" Type="2" Caption="如何在浏览器内保存网页" CommandBarId="16777227"/>
+					<Control Class="CWizControlButton" Id="57667" BeginGroup="1" Caption="CyberArticle用户手册(&amp;M)" TooltipText="帮助主题" DescriptionText="列出帮助主题"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="CyberArticle资源" CommandBarId="16777228"/>
+					<Control Class="CWizControlButton" Id="32992" BeginGroup="1" Caption="购买CyberArticle(&amp;B)..." TooltipText="购买CyberArticle" DescriptionText="购买CyberArticle"/>
+					<Control Class="CWizControlButton" Id="33031" Caption="已注册" TooltipText="输入注册号" DescriptionText="输入注册号"/>
+					<Control Class="CWizControlButton" Id="33178" BeginGroup="1" Caption="反馈(&amp;F)" TooltipText="反馈" DescriptionText="反馈"/>
+					<Control Class="CWizControlButton" Id="33107" Caption="检查新版本(&amp;N)"/>
+					<Control Class="CWizControlButton" Id="57664" BeginGroup="1" Caption="关于CyberArticle(&amp;A)..." TooltipText="关于" DescriptionText="显示程序信息，版本号和版权"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777227" Style="4194304" Title="如何在浏览器内保存网页">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33119" Caption="微软IE和其它IE内核浏览器(&amp;I)"/>
+					<Control Class="CWizControlButton" Id="33120" Caption="火狐浏览器(Firefox) (&amp;F)"/>
+					<Control Class="CWizControlButton" Id="33121" Caption="Google 浏览器(&amp;C)"/>
+					<Control Class="CWizControlButton" Id="33122" Caption="苹果 &amp;Safari"/>
+					<Control Class="CWizControlButton" Id="33123" Caption="&amp;Opera"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777228" Style="4194304" Title="CyberArticle资源">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33149" Caption="首页"/>
+					<Control Class="CWizControlButton" Id="33057" Caption="用户交流社区" TooltipText="CyberArticle用户交流" DescriptionText="CyberArticle用户交流"/>
+					<Control Class="CWizControlButton" Id="33150" Caption="博客"/>
+					<Control Class="CWizControlButton" Id="33089" Caption="开发"/>
+					<Control Class="CWizControlButton" Id="33179" BeginGroup="1" Caption="为知Wiz"/>
+					<Control Class="CWizControlButton" Id="33151" BeginGroup="1" Caption="网页另存插件"/>
+					<Control Class="CWizControlButton" Id="33180" Caption="HTML/MHT 编辑器"/>
+					<Control Class="CWizControlButton" Id="33152" BeginGroup="1" Caption="备份Outlook邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33153" Caption="备份Outlook Express邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33154" Caption="备份Windows Mail邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33155" Caption="备份Live Mail邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33156" BeginGroup="1" Caption="转换Mht为HTML"/>
+					<Control Class="CWizControlButton" Id="33157" Caption="转换HTML为Mht"/>
+					<Control Class="CWizControlButton" Id="33158" Caption="转换HTML为Text"/>
+					<Control Class="CWizControlButton" Id="33159" BeginGroup="1" Caption="开发者博客"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizControlComboBoxList" Type="2" Position="6" BarID="16777229" Style="80" ListIconId="32987"/>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777230" Style="4194304" Title="后退">
+				<Controls>
+					<Control Class="CBrowserBackHistoryControlButton" Id="33046" Caption="[BackHistory]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777231" Style="4194304" Title="前进">
+				<Controls>
+					<Control Class="CBrowserForwardHistoryControlButton" Id="33047" Caption="[ForwardHistory]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777232" Style="4194304" Title="收藏夹">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33048" Caption="添加到收藏夹(&amp;A)..."/>
+					<Control Class="CWizControlButton" Id="33049" Caption="整理收藏夹(&amp;O)..."/>
+					<Control Class="CWizBrowserFavoritesControlButton" Id="33052" BeginGroup="1" Caption="[Favorites]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizControlComboBoxList" Type="2" Position="6" BarID="16777233"/>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777234" Style="4194304" Title="搜索">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33104" Caption="搜索选中的节点(&amp;S)"/>
+					<Control Class="CWizControlButton" Id="33028" Caption="搜索当前书籍(&amp;C)" TooltipText="在书籍中搜索" DescriptionText="在书籍中搜索"/>
+					<Control Class="CWizControlButton" Id="33105" Caption="搜索全部打开的书籍(&amp;A)"/>
+					<Control Class="CWizControlButton" Id="33165" Caption="搜索网络(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33059" BeginGroup="1" Caption="定位关键字(&amp;K)" TooltipText="定位关键" DescriptionText="定位关键"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777235" Style="4194304" Title="文件(F)">
+				<Controls>
+					<Control Class="CWizControlPopup" Type="2" Caption="新建(&amp;N)" CommandBarId="16777236"/>
+					<Control Class="CWizControlButton" Id="32775" Caption="打开书籍(&amp;O)..." TooltipText="打开书籍" DescriptionText="打开一个存在的书籍" ShortcutTextAuto="Ctrl+O"/>
+					<Control Class="CWizControlButton" Id="33069" Caption="打开本地书籍(&amp;B)..." TooltipText="打开本地书籍" DescriptionText="打开本地书籍"/>
+					<Control Class="CWizControlButton" Id="32879" BeginGroup="1" Caption="关闭当前书籍(&amp;L)" TooltipText="关闭当前书籍" DescriptionText="关闭当前书籍"/>
+					<Control Class="CWizControlButton" Id="57607" BeginGroup="1" Caption="打印(&amp;P)..." TooltipText="打印" DescriptionText="打印活动文档" ShortcutTextAuto="Ctrl+P"/>
+					<Control Class="CWizControlButton" Id="57609" Caption="打印预览(&amp;V)"/>
+					<Control Class="CWizControlButton" Id="57605" Caption="页面设置(&amp;U)..."/>
+					<Control Class="CWizControlPopup" Type="2" BeginGroup="1" Caption="导入(&amp;I)" CommandBarId="16777237"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="导出(&amp;E)" CommandBarId="16777238"/>
+					<Control Class="CWizControlButton" Id="57665" BeginGroup="1" Caption="退出(&amp;X)" TooltipText="退出" DescriptionText="退出应用程序；提示保存文档"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777236" Style="4194304" Title="新建(N)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32777" Caption="文件夹(&amp;F)" TooltipText="新文件夹" DescriptionText="创建新文件夹" ShortcutTextAuto="F6"/>
+					<Control Class="CWizControlButton" Id="32779" Caption="文章(&amp;A)" TooltipText="新文章" DescriptionText="创建新文章" ShortcutTextAuto="F7"/>
+					<Control Class="CWizControlButton" Id="32773" BeginGroup="1" Caption="书籍(&amp;B)..." TooltipText="新书籍" DescriptionText="创建新书籍"/>
+					<Control Class="CWizControlButton" Id="33068" Caption="Access书籍(&amp;C)..." TooltipText="新建Access书籍" DescriptionText="新建Access书籍"/>
+					<Control Class="CNewArticleToolPluginsControlButton" Id="32919" Caption="[NewArticlePlugins]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777237" Style="4194304" Title="导入(I)">
+				<Controls>
+					<Control Class="CImportToolPluginsControlButton" Id="32914" Caption="[ImportPlugins]"/>
+					<Control Class="CWizControlButton" Id="33125" BeginGroup="1" Caption="从其它工具导入(&amp;T)"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777238" Style="4194304" Title="导出(E)">
+				<Controls>
+					<Control Class="CExportToolPluginsControlButton" Id="32915" Caption="[ExportPlugins]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777239" Style="4194304" Title="视图(V)">
+				<Controls>
+					<Control Class="CWizControlToolbars" Id="59392" Caption="工具栏(&amp;T)" TooltipText="显隐工具栏" DescriptionText="显示或隐藏工具栏"/>
+					<Control Class="CWizControlButton" Id="59393" Caption="状态栏(&amp;S)" TooltipText="显隐状态栏" DescriptionText="显示或隐藏状态栏"/>
+					<Control Class="CWizControlButton" Id="32878" BeginGroup="1" Caption="搜索(&amp;E)" TooltipText="搜索" DescriptionText="搜索窗口"/>
+					<Control Class="CWizControlButton" Id="32792" BeginGroup="1" Caption="书籍(&amp;B)" TooltipText="书籍" DescriptionText="书籍窗口"/>
+					<Control Class="CWizControlButton" Id="32771" Caption="文件夹(&amp;F)" TooltipText="文件夹" DescriptionText="文件夹窗口"/>
+					<Control Class="CWizControlButton" Id="32904" Caption="标签(&amp;L)" TooltipText="标签" DescriptionText="标签窗口"/>
+					<Control Class="CWizControlButton" Id="32971" Caption="书签(&amp;K)" TooltipText="书签窗口" DescriptionText="书签窗口"/>
+					<Control Class="CWizControlButton" Id="32772" Caption="节点(&amp;N)" TooltipText="节点" DescriptionText="节点窗口"/>
+					<Control Class="CWizControlButton" Id="32855" Caption="附件(&amp;A)" TooltipText="附件" DescriptionText="附件窗口"/>
+					<Control Class="CWizControlButton" Id="32905" Caption="文章资源(&amp;R)" TooltipText="资源" DescriptionText="资源窗口"/>
+					<Control Class="CWizControlButton" Id="32909" Caption="注释(&amp;C)" TooltipText="注释" DescriptionText="注释窗口"/>
+					<Control Class="CWizControlButton" Id="32984" BeginGroup="1" Caption="全屏(&amp;U)" TooltipText="最大化窗口到全屏幕" DescriptionText="最大化窗口到全屏幕"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777240" Style="4194304" Title="操作(A)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32899" Caption="选中部分作为标题(&amp;S)" TooltipText="设置选中部分作为标题" DescriptionText="设置选中部分作为标题" ShortcutTextAuto="Ctrl+T"/>
+					<Control Class="CWizControlButton" Id="32913" Caption="重新保存当前文章(&amp;R)..." TooltipText="重新保存当前文章" DescriptionText="重新保存当前文章"/>
+					<Control Class="CWizControlButton" Id="32972" Caption="添加到书签(&amp;B)" TooltipText="添加到书签" DescriptionText="添加到书签"/>
+					<Control Class="CWizControlButton" Id="32856" BeginGroup="1" Caption="添加附件(&amp;T)..." TooltipText="添加附件" DescriptionText="添加附件"/>
+					<Control Class="CWizControlButton" Id="33127" Caption="添加文件快捷方式作为附件(&amp;T)..." TooltipText="添加快捷方式" DescriptionText="添加快捷方式"/>
+					<Control Class="CWizControlButton" Id="32956" BeginGroup="1" Caption="上一篇文章(&amp;P)" TooltipText="上一篇文章" DescriptionText="上一篇文章"/>
+					<Control Class="CWizControlButton" Id="32957" Caption="下一篇文章(&amp;N)" TooltipText="下一篇文章" DescriptionText="下一篇文章"/>
+					<Control Class="CWizControlButton" Id="33183" BeginGroup="1" Caption="同步(&amp;Y)..." TooltipText="同步" DescriptionText="同步"/>
+					<Control Class="CWizControlButton" Id="33182" Caption="分享(&amp;H)..." TooltipText="分享" DescriptionText="分享"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777241" Style="4194304" Title="宏(M)">
+				<Controls>
+					<Control Class="CNormalMacrosControlButton" Id="33081" Caption="[Macros]"/>
+					<Control Class="CWizControlButton" Id="33084" BeginGroup="1" Caption="安装宏..."/>
+					<Control Class="CWizControlButton" Id="33085" Caption="管理宏..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777242" Style="4194304" Title="工具(T)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="32895" Caption="选项(&amp;O)..." TooltipText="更改设置" DescriptionText="更改设置"/>
+					<Control Class="CWizControlButton" Id="33058" Caption="浮动工具栏(&amp;F)" TooltipText="浮动工具栏" DescriptionText="浮动工具栏"/>
+					<Control Class="CWizControlButton" Id="33060" BeginGroup="1" Caption="书籍维护(&amp;M)..." TooltipText="书籍维护" DescriptionText="书籍维护"/>
+					<Control Class="CWizControlButton" Id="32903" BeginGroup="1" Caption="阅读器(&amp;R)..." TooltipText="打开文章阅读器" DescriptionText="打开文章阅读器"/>
+					<Control Class="CNormalToolPluginsControlButton" Id="32897" Caption="[Plugins]"/>
+					<Control Class="CWizControlPopup" Type="2" BeginGroup="1" Caption="便携CyberArticle" CommandBarId="16777243"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777243" Style="4194304" Title="便携CyberArticle">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33145" Caption="注册全部文件(&amp;G)..." TooltipText="注册全部CyberArticle文件" DescriptionText="注册全部CyberArticle文件"/>
+					<Control Class="CWizControlButton" Id="33146" Caption="取消注册全部文件(&amp;U)..." TooltipText="取消注册全部CyberArticle文件" DescriptionText="取消注册全部CyberArticle文件"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777244" Style="4194304" Title="随时访问(C)">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33212" Caption="网页版(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33213" Caption="手机网页版(&amp;M)"/>
+					<Control Class="CWizControlButton" Id="33214" BeginGroup="1" Caption="iPhone/iPad客户端(&amp;I)"/>
+					<Control Class="CWizControlButton" Id="33215" Caption="安卓(Android)客户端(&amp;A)"/>
+					<Control Class="CWizControlButton" Id="33216" Caption="Windows Phone 7客户端(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33221" Caption="苹果客户端(&amp;C)"/>
+					<Control Class="CWizControlButton" Id="33222" Caption="Linux客户端(&amp;L)"/>
+					<Control Class="CWizControlButton" Id="33217" BeginGroup="1" Caption="更多(&amp;O)..."/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777245" Style="4194304" Title="帮助(H)">
+				<Controls>
+					<Control Class="CWizControlPopup" Type="2" Caption="如何在浏览器内保存网页" CommandBarId="16777246"/>
+					<Control Class="CWizControlButton" Id="57667" BeginGroup="1" Caption="CyberArticle用户手册(&amp;M)" TooltipText="帮助主题" DescriptionText="列出帮助主题" ShortcutTextAuto="F1"/>
+					<Control Class="CWizControlPopup" Type="2" Caption="CyberArticle资源" CommandBarId="16777247"/>
+					<Control Class="CWizControlButton" Id="32992" BeginGroup="1" Caption="购买CyberArticle(&amp;B)..." TooltipText="购买CyberArticle" DescriptionText="购买CyberArticle"/>
+					<Control Class="CWizControlButton" Id="33031" Caption="输入注册号(&amp;E)..." TooltipText="输入注册号" DescriptionText="输入注册号"/>
+					<Control Class="CWizControlButton" Id="33178" BeginGroup="1" Caption="反馈(&amp;F)" TooltipText="反馈" DescriptionText="反馈"/>
+					<Control Class="CWizControlButton" Id="33107" Caption="检查新版本(&amp;N)"/>
+					<Control Class="CWizControlButton" Id="57664" BeginGroup="1" Caption="关于CyberArticle(&amp;A)..." TooltipText="关于" DescriptionText="显示程序信息，版本号和版权"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777246" Style="4194304" Title="如何在浏览器内保存网页">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33119" Caption="微软IE和其它IE内核浏览器(&amp;I)"/>
+					<Control Class="CWizControlButton" Id="33120" Caption="火狐浏览器(Firefox) (&amp;F)"/>
+					<Control Class="CWizControlButton" Id="33121" Caption="Google 浏览器(&amp;C)"/>
+					<Control Class="CWizControlButton" Id="33122" Caption="苹果 &amp;Safari"/>
+					<Control Class="CWizControlButton" Id="33123" Caption="&amp;Opera"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777247" Style="4194304" Title="CyberArticle资源">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33149" Caption="首页"/>
+					<Control Class="CWizControlButton" Id="33057" Caption="用户交流社区" TooltipText="CyberArticle用户交流" DescriptionText="CyberArticle用户交流"/>
+					<Control Class="CWizControlButton" Id="33150" Caption="博客"/>
+					<Control Class="CWizControlButton" Id="33089" Caption="开发"/>
+					<Control Class="CWizControlButton" Id="33179" BeginGroup="1" Caption="为知Wiz"/>
+					<Control Class="CWizControlButton" Id="33151" BeginGroup="1" Caption="网页另存插件"/>
+					<Control Class="CWizControlButton" Id="33180" Caption="HTML/MHT 编辑器"/>
+					<Control Class="CWizControlButton" Id="33152" BeginGroup="1" Caption="备份Outlook邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33153" Caption="备份Outlook Express邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33154" Caption="备份Windows Mail邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33155" Caption="备份Live Mail邮件为CHM"/>
+					<Control Class="CWizControlButton" Id="33156" BeginGroup="1" Caption="转换Mht为HTML"/>
+					<Control Class="CWizControlButton" Id="33157" Caption="转换HTML为Mht"/>
+					<Control Class="CWizControlButton" Id="33158" Caption="转换HTML为Text"/>
+					<Control Class="CWizControlButton" Id="33159" BeginGroup="1" Caption="开发者博客"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizControlComboBoxList" Type="2" Position="6" BarID="16777248" Style="80" ListIconId="32987"/>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777249" Style="4194304" Title="后退">
+				<Controls>
+					<Control Class="CBrowserBackHistoryControlButton" Id="33046" Caption="[BackHistory]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777250" Style="4194304" Title="前进">
+				<Controls>
+					<Control Class="CBrowserForwardHistoryControlButton" Id="33047" Caption="[ForwardHistory]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777251" Style="4194304" Title="收藏夹">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33048" Caption="添加到收藏夹(&amp;A)..."/>
+					<Control Class="CWizControlButton" Id="33049" Caption="整理收藏夹(&amp;O)..."/>
+					<Control Class="CWizBrowserFavoritesControlButton" Id="33052" BeginGroup="1" Caption="[Favorites]"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CWizControlComboBoxList" Type="2" Position="6" BarID="16777252"/>
+			<CommandBar Class="CWizPopupBar" Type="2" Position="5" BarID="16777253" Style="4194304" Title="搜索">
+				<Controls>
+					<Control Class="CWizControlButton" Id="33104" Caption="搜索选中的节点(&amp;S)"/>
+					<Control Class="CWizControlButton" Id="33028" Caption="搜索当前书籍(&amp;C)" TooltipText="在书籍中搜索" DescriptionText="在书籍中搜索"/>
+					<Control Class="CWizControlButton" Id="33105" Caption="搜索全部打开的书籍(&amp;A)"/>
+					<Control Class="CWizControlButton" Id="33165" Caption="搜索网络(&amp;W)"/>
+					<Control Class="CWizControlButton" Id="33059" BeginGroup="1" Caption="定位关键字(&amp;K)" TooltipText="定位关键" DescriptionText="定位关键"/>
+				</Controls>
+			</CommandBar>
+		</CommandBars>
+		<Layout>
+			<DockState Version="24" ScreenSize="1920, 1080" Count="4">
+				<BarInfo0 BarId="1" MRUWidth="32767"/>
+				<BarInfo1 BarId="128" MRUWidth="32767" PointPos="0, 28"/>
+				<BarInfo2 BarId="779" MRUWidth="32767" PointPos="759, 28" MRUDockPos="759, 28, 1518, 55"/>
+				<BarInfo3 BarId="785" Visible="0" MRUWidth="32767"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="8" Id1="1" Id3="779" Id4="128" Id6="785"/>
+			</DockBars>
+		</Layout>
+	</CommandBars>
+	<DockingPane>
+		<Summary Panes="14" TopContainer="9" Client="14"/>
+		<Pane-1 Type="0" DockingCX="250" DockingCY="240" Title="节点列表(空)" ID="32772" DockingHolder="12" LastHolder="12"/>
+		<Pane-2 Type="0" DockingCX="150" DockingCY="240" Title="附件窗口\n附件" ID="32855" DockingHolder="12" LastHolder="12"/>
+		<Pane-3 Type="0" DockingCX="150" DockingCY="240" Title="资源窗口\n资源" ID="32905" DockingHolder="12" LastHolder="12"/>
+		<Pane-4 Type="0" DockingCX="150" DockingCY="240" Title="注释窗口\n注释" ID="32909" DockingHolder="12" LastHolder="12"/>
+		<Pane-5 Type="0" DockingCX="150" DockingCY="240" Title="文件夹窗口\n文件夹" ID="32771" DockingHolder="10" LastHolder="10"/>
+		<Pane-6 Type="0" DockingCX="150" DockingCY="240" Title="书籍窗口\n书籍" ID="32792" DockingHolder="10" LastHolder="10"/>
+		<Pane-7 Type="0" DockingCX="150" DockingCY="240" Title="标签窗口\n标签" ID="32904" DockingHolder="10" LastHolder="10"/>
+		<Pane-8 Type="0" DockingCX="150" DockingCY="240" Title="书签窗口\n书签窗口" ID="32971" DockingHolder="10" LastHolder="10"/>
+		<Pane-9 Type="2" DockingCX="1424" Horiz="1" Panes="2" Pane-1="10" Pane-2="11"/>
+		<Pane-10 Type="1" DockingCX="250" DockingCY="240" Panes="3" Selected="5" Pane-1="6" Pane-2="5" Pane-3="7"/>
+		<Pane-11 Type="2" DockingCX="1170" Panes="2" Pane-1="12" Pane-2="13"/>
+		<Pane-12 Type="1" DockingCX="250" DockingCY="240" Panes="0"/>
+		<Pane-13 Type="2" Horiz="1" Panes="1" Pane-1="14"/>
+		<Pane-14 Type="4"/>
+	</DockingPane>
+	<Shortcuts>
+		<Accel Id="32972" virt="11" key="77"/>
+		<Accel Id="32842" virt="3" key="120"/>
+		<Accel Id="32896" virt="3" key="121"/>
+		<Accel Id="32946" virt="3" key="119"/>
+		<Accel Id="32899" virt="11" key="84"/>
+		<Accel Id="33003" virt="11" key="87"/>
+		<Accel Id="57669" virt="7" key="112"/>
+		<Accel Id="57643" virt="19" key="8"/>
+		<Accel Id="57643" virt="11" key="90"/>
+		<Accel Id="32779" virt="3" key="118"/>
+		<Accel Id="32777" virt="3" key="117"/>
+		<Accel Id="32775" virt="11" key="79"/>
+		<Accel Id="57607" virt="11" key="80"/>
+		<Accel Id="57603" virt="11" key="83"/>
+		<Accel Id="33017" virt="11" key="75"/>
+		<Accel Id="57680" virt="3" key="117"/>
+		<Accel Id="34951" virt="11" key="49"/>
+		<Accel Id="34960" virt="11" key="48"/>
+		<Accel Id="34952" virt="11" key="50"/>
+		<Accel Id="34953" virt="11" key="51"/>
+		<Accel Id="34954" virt="11" key="52"/>
+		<Accel Id="34955" virt="11" key="53"/>
+		<Accel Id="34956" virt="11" key="54"/>
+		<Accel Id="34957" virt="11" key="55"/>
+		<Accel Id="34958" virt="11" key="56"/>
+		<Accel Id="34959" virt="11" key="57"/>
+		<Accel Id="57681" virt="7" key="117"/>
+		<Accel Id="33059" virt="3" key="114"/>
+		<Accel Id="32957" virt="3" key="123"/>
+		<Accel Id="32956" virt="3" key="122"/>
+		<Accel Id="32958" virt="11" key="187"/>
+		<Accel Id="32959" virt="11" key="189"/>
+		<Accel Id="32950" virt="19" key="49"/>
+		<Accel Id="32951" virt="19" key="50"/>
+		<Accel Id="32952" virt="19" key="51"/>
+	</Shortcuts>
+</UI_6.0.0.0>
